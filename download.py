@@ -229,7 +229,7 @@ def queue_position_thread():
 
 
 @click.command()
-@click.option("--data-path", type=click.Path(), default="./data")
+@click.option("--data-path", type=click.Path(), default="/root/chameleon/data")
 @click.option(
     "--model-size", type=click.Choice(["7b", "30b"], case_sensitive=False), default="7b"
 )
